@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Expire Blog</title>
+    <!-- --------------------------- meta etiquetas ---------------------------- -->
+    <meta name="description" content="Hola Expired Blog, blog de portafolio">
+    <!-- ------------------------------- favicon ------------------------------- -->
+    <link rel="shortcut icon" href="https://luisegarciac.github.io/Expire_blog/assets/img/favicon.ico" type="image/x-icon">
+    <!-- ------------------ icono de ejecucion en el celular ------------------- -->
+    <link rel="apple-touch-icon" href="https://luisegarciac.github.io/Expire_blog/assets/favicon.png">
+
+    <!--Colorear la barra de direccion del navegador en el celular-->
+    <meta name="theme-color" content="#ff3c1f">
+
+    <!-- ------------------ sitio web amistoso con celulares ------------------- -->
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+
+    <!-- ------------ META ETIQUETAS PARA PAGINAS Y REDES SOCIALES ------------- -->
+    <link rel="canonical" href="https://luisegarciac.github.io/Expire_blog">
+    <meta name="twitter:card" content="summary">
+    <meta property="og:type" content="website">
+    <meta property="og:title" name="twitter:title" content="Hola Expired Blog, blog de portafolio">
+    <meta property="og:description" name="twitter:description" content="Hola Expired Blog, blog de portafolio">
+    <meta property="og:image" name="twitter:image" content="https://luisegarciac.github.io/Expire_blog/assets/hero-image-home.jpg">
+    <meta property="og:url" name="twitter:url" content="https://luisegarciac.github.io/Expire_blog">
+
+    <!-- ----------------------- para dispositivos apple ----------------------- -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- ------------------ imagen de inicio de la aplicacion ------------------ -->
+    <link rel="apple-touch-startup-image" href="">
+    <!-- ------------------------ manifiesto importante ------------------------ -->
+    <link rel="manifest" href="./manifest.json">
+    <!-- ---------------------------- google fonts ----------------------------- -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <!-- ------------------------------ web icons ------------------------------ -->
+    <link href="https://file.myfontastic.com/9o78czMi9KELWdKVyE24yW/icons.css" rel="stylesheet">
+    <!-- ------------------------------- fontawesome ------------------------------- -->
+    <script src="https://kit.fontawesome.com/0cbfb28feb.js" crossorigin="anonymous"></script>
+    <!-- ------------------------------ web style ------------------------------ -->
+    <link rel="stylesheet" href="https://luisegarciac.github.io/Expire_blog/assets/css/normalize.css">
+    <link rel="stylesheet" href="https://luisegarciac.github.io/Expire_blog/assets/css/style.css">
+
+
+</head>
+
+<body>
+    <!-- -------------------------------- HEADER --------------------------------- -->
+    <header class="header">
+      <section class="container">
+        <div class="logo">
+          <a href="index.html"><img src="assets/img/avatar.png" alt="" srcset=""></a>
+          <a clas="colorweb" href="index.html">Expire</a>
+        </div>
+      <button class="menu-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z"/></svg>
+        <svg class="none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z"/></svg>
+      </button>
+      <nav class="menu">
+        <a href="# ">HOME</a>
+        <a href="#acerca">PORTFOLIO</a>
+        <a href="blog.html">BLOG</a>
+        <a class="menu-logo none" href="index.html"><img src="assets/img/logo.png" alt="" srcset=""></a>
+        <a href="#portafolio">PAGES</a>
+        <a href="#testimonios">ABOUT US</a>
+        <a href="#contacto">CONTACT</a>
+      </nav>
+      </section>
+    </header>
+    <!-- -------------------------------- MAIN --------------------------------- -->
+    <main>
+
+    <!-- -------------------------------- HOME --------------------------------- -->
+    <section id="inicio" class="home">
+        <article class="container section hero-image">
+          <div class="contenedor">
+            <div class="content actual">
+              <h2 class="slider-title">Expire</h2>
+              <p class="slider-paragram">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
+              <div class="links">
+                <a class="btn" href="#">EXPLORE</a>
+                <a class="btn" href="#">LEARN MORE</a>
+              </div>
+            </div>
+            <div class="content">
+              <h2 class="slider-title">Standard</h2>
+              <p class="slider-paragram">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
+              <div class="links">
+                <a class="btn" href="#">EXPLORE</a>
+                <a class="btn" href="#">LEARN MORE</a>
+              </div>
+            </div>
+            <div class="content">
+              <h2 class="slider-title">Expire</h2>
+              <p class="slider-paragram">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
+              <div class="links">
+                <a class="btn" href="#">EXPLORE</a>
+                <a class="btn" href="#">LEARN MORE</a>
+              </div>
+            </div>
+            <div class="puntos">
+              <span class="punto activo" onclick="mostrar(0);"></span>
+              <span class="punto" onclick="mostrar(1);"></span>
+              <span class="punto" onclick="mostrar(2);"></span>
+            </div>
+          </div>
+        </article>
+    </section>
+    <!-- -------------------------------- About Us --------------------------------- -->
+    <section class="aboutus">
+      <article class="container section">
+          <div class="header-title">
+            <h3 class="title title-black">About Us</h3>
+            <p class="paragram paragram-black">Proin gravida nibh vel velit auctor aliquet</p>
+          </div>
+          <div class="aboutus-content">
+            <!-- ASIDE -->
+            <aside class="moreyou">
+              <p class="paragram paragram-black">We are not simply in the universe, we are part of it.ipsa similique.</p>
+              <a class="btn btn-cta" href="#">THE MORE YOU KNOW</a>
+            </aside>
+            <!-- CARDS -->
+            <div class="content-cards">
+              <div class="card">
+                <img src="assets/img/icon1.png" alt="icono1">
+                <h3 class="subtitle">TYPOGRAPHY</h3>
+                <p class="paragram paragram-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque veniam in nobis nulla, excepturi necessitatibus maxime sapiente laborum, rerum asperiores ipsa similique quos.</p>
+              </div>
+              <div class="card">
+                <img src="assets/img/icon2.png" alt="icono1">
+                <h3 class="subtitle">FULL ICON SET</h3>
+                <p class="paragram paragram-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque veniam in nobis nulla, excepturi necessitatibus maxime sapiente laborum, rerum asperiores ipsa similique quos.</p>
+              </div>
+              <div class="card">
+                <img src="assets/img/icon3.png" alt="icono1">
+                <h3 class="subtitle">ACCURATE</h3>
+                <p class="paragram paragram-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque veniam in nobis nulla, excepturi necessitatibus maxime sapiente laborum, rerum asperiores ipsa similique quos.</p>
+              </div>
+            </div>
+          </div>
+      </article>
+    </section>
+    <!-- -------------------------- Parallax-Section --------------------------- -->
+    <section class="container section parallax">
+      <article class="container-cite">
+        <div class="header-title">
+          <h3 class="title">Parallax-Section</h3>
+          <p class="paragram paragram-white">Proin gravida nibh vel velit auctor aliquet nec sagittis sem nibh id elit.</p>
+        </div>
+        <div class="cite">
+          <cite>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</cite>
+          <h4>-Erik Adigard</h4>
+        </div>
+      </article>
+    </section>
+    <!-- -------------------------- icons --------------------------- -->
+    <section class="container section section-icons">
+      <div class="icon-cards">
+        <div class="icon-card">
+          <i class="far fa-user"></i>
+          <div class="leters">
+            <p class="number">1000+</p>
+            <p class="text">Happy Users</p>
+          </div>
+        </div>
+        <div class="icon-card">
+          <i class="fas fa-shopping-cart"></i>
+          <div class="leters">
+            <p class="number">1000+</p>
+            <p class="text">Happy Users</p>
+          </div>
+        </div>
+        <div class="icon-card">
+          <i class="far fa-comment-alt"></i>
+          <div class="leters">
+            <p class="number">1000+</p>
+            <p class="text">Happy Users</p>
+          </div>
+        </div>
+        <div class="icon-card">
+          <i class="fas fa-clipboard-list"></i>
+          <div class="leters">
+            <p class="number">1000+</p>
+            <p class="text">Happy Users</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -------------------------- Latest Blog Post --------------------------- -->
+    <section class="blog">
+    <div class="container section">
+      <div class="header-title">
+        <h3 class="title title-black">Latest Blog Post</h3>
+        <p class="paragram paragram-black">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+      </div>
+      <div class="posts">
+        <div class="post">
+          <img src="assets/img/img11.jpg" alt="patos">
+          <a class="title title-black" href="#">
+            <h2>Just Another Blog Post</h2>
+          </a>
+          <div class="author-comment">
+          <div class="author">
+            <i class="far fa-user"></i>
+            <p class="paragram paragram-black">By Author</p>
+          </div>
+          <div class="comment">
+            <i class="far fa-comment-alt"></i>
+            <p class="paragram paragram-black">3 Comment</p>
+          </div>
+        </div>
+          <p class="paragram paragram-black">
+            Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+          </p>
+          <a class="btn btn-primary" href="#">READ MORE</a>
+        </div>
+        <div class="post">
+          <img src="assets/img/img12.jpg" alt="patos">
+          <a class="title title-black" href="">
+            <h2>Blog Post With Youtube Video</h2>
+          </a>
+          <div class="author-comment">
+          <div class="author">
+            <i class="far fa-user"></i>
+            <p class="paragram paragram-black">By Author</p>
+          </div>
+          <div class="comment">
+            <i class="far fa-comment-alt"></i>
+            <p class="paragram paragram-black">3 Comment</p>
+          </div>
+        </div>
+          <p class="paragram paragram-black">
+            Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+          </p>
+          <a class="btn btn-primary" href="#">READ MORE</a>
+        </div>
+        <div class="post">
+          <img src="assets/img/img13.jpg" alt="patos">
+          <a class="title title-black" href="">
+            <h2>This Could Be Great</h2>
+          </a>
+          <div class="author-comment">
+          <div class="author">
+            <i class="far fa-user"></i>
+            <p class="paragram paragram-black">By Author</p>
+          </div>
+          <div class="comment">
+            <i class="far fa-comment-alt"></i>
+            <p class="paragram paragram-black">3 Comment</p>
+          </div>
+        </div>
+          <p class="paragram paragram-black">
+            Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+          </p>
+          <a class="btn btn-primary" href="#">READ MORE</a>
+        </div>
+      </div>
+    </div>
+    </section>
+    <!-- Latest Portfolio -->
+    <section class="portfolio">
+      <div class="container section">
+        <div class="header-title">
+          <h3 class="title title-black">Latest Portfolio</h3>
+      </div>
+      <div class="portfolio-cards">
+        <article class="project-item">
+          <img class="project-img" src="assets/img/portgolio1.jpg" alt="cantante" >
+          <div class="project-hover">
+            <h4 class="project-title">
+              Accusantium
+            </h4>
+            <p class="paragram paragram-white">Proin gravida nibh </p>
+          </div>
+        </article>
+        <article class="project-item">
+          <img class="project-img" src="assets/img/portgolio2.jpg" alt="cantante" >
+          <div class="project-hover">
+            <h4 class="project-title">
+              Accusantium
+            </h4>
+            <p class="paragram paragram-white">Proin gravida nibh </p>
+          </div>
+        </article>
+        <article class="project-item">
+          <img class="project-img" src="assets/img/portgolio3.jpg" alt="cantante" >
+          <div class="project-hover">
+            <h4 class="project-title">
+              Accusantium
+            </h4>
+            <p class="paragram paragram-white">Proin gravida nibh </p>
+          </div>
+        </article>
+        <article class="project-item">
+          <img class="project-img" src="assets/img/portgolio4.jpg" alt="cantante" >
+          <div class="project-hover">
+            <h4 class="project-title">
+              Accusantium
+            </h4>
+            <p class="paragram paragram-white">Proin gravida nibh </p>
+          </div>
+        </article>
+        <article class="project-item">
+          <img class="project-img" src="assets/img/portgolio5.jpg" alt="cantante" >
+          <div class="project-hover">
+            <h4 class="project-title">
+              Accusantium
+            </h4>
+            <p class="paragram paragram-white">Proin gravida nibh </p>
+          </div>
+        </article>
+        <article class="project-item">
+          <img class="project-img" src="assets/img/portgolio6.jpg" alt="cantante" >
+          <div class="project-hover">
+            <h4 class="project-title">
+              Accusantium
+            </h4>
+            <p class="paragram paragram-white">Proin gravida nibh </p>
+          </div>
+        </article>
+        <article class="project-item">
+          <img class="project-img" src="assets/img/portgolio7.jpg" alt="cantante" >
+          <div class="project-hover">
+            <h4 class="project-title">
+              Accusantium
+            </h4>
+            <p class="paragram paragram-white">Proin gravida nibh </p>
+          </div>
+        </article>
+        <article class="project-item">
+          <img class="project-img" src="assets/img/portgolio8.jpg" alt="cantante" >
+          <div class="project-hover">
+            <h4 class="project-title">
+              Accusantium
+            </h4>
+            <p class="paragram paragram-white">Proin gravida nibh </p>
+          </div>
+        </article>
+      </div>
+      <a class="btn btn-primary" href="#">VIEW MORE</a>
+    </section>
+    <!-- ------------------------------- PATROSINADORES -------------------------------- -->
+    <section class="patrion-cards">
+      <div class="container section">
+        <div class="patrions">
+          <article class="patrion">
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              <img class="patrion-img" src="assets/img/c1.png" alt="patrion1">
+            </a>
+          </article>
+          <article class="patrion">
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              <img class="patrion-img" src="assets/img/c2.png" alt="patrion2">
+            </a>
+          </article>
+          <article class="patrion">
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              <img class="patrion-img" src="assets/img/c3.png" alt="patrion3">
+            </a>
+          </article>
+          <article class="patrion">
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              <img class="patrion-img" src="assets/img/c4.png" alt="patrion4">
+            </a>
+          </article>
+          <article class="patrion">
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              <img class="patrion-img" src="assets/img/c5.png" alt="patrion5">
+            </a>
+          </article>
+          <article class="patrion">
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              <img class="patrion-img"src="assets/img/c6.png" alt="patrion6">
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- ------------------------------- And What Do Others Say -------------------------------- -->
+    <section class="otherssay">
+      <div class="container section">
+        <div class="header-title">
+          <h2 class="title">And What Do Others Say</h2>
+        </div>
+        <aside class="say-contents">
+          <article class="container section slider-say">
+            <div class="contenedor ">
+              <div class="content actual seo-conten">
+                <img src="assets/img/seo1.jpg" alt="seo1">
+              <div class="seo-info">
+                <div class="seo-info-title">
+                  <p class="seo-name">Astrid Jorgense</p>
+                  <p class="seo-title">ceo At Runway In</p>
+                </div>
+                <cite>Sugar plum jelly beans fruitcake lollipop jelly candy pudding. Cookie biscuit gingerbread jujubes macaroon liquorice.</cite>
+              </div>
+              </div>
+              <div class="content seo-conten">
+                <img src="assets/img/seo2.jpg" alt="seo2">
+                <div class="seo-info">
+                  <div class="seo-info-title">
+                    <p class="seo-name">Astrid Jorgense</p>
+                    <p class="seo-title">ceo At Runway In</p>
+                  </div>
+                  <cite>Sugar plum jelly beans fruitcake lollipop jelly candy pudding. Cookie biscuit gingerbread jujubes macaroon liquorice.</cite>
+                </div>
+              </div>
+              <div class="content seo-conten">
+                <img src="assets/img/seo3.jpg" alt="seo3">
+                <div class="seo-info">
+                  <p class="seo-name">Astrid Jorgense</p>
+                  <p class="seo-title">ceo At Runway In</p>
+                  <cite>Sugar plum jelly beans fruitcake lollipop jelly candy pudding. Cookie biscuit gingerbread jujubes macaroon liquorice.</cite>
+                </div>
+              </div>
+              <div class="puntos">
+                <span class="punto2 activo2" onclick="mostrar(0);"></span>
+                <span class="punto2" onclick="mostrar(1);"></span>
+                <span class="punto2" onclick="mostrar(2);"></span>
+              </div>
+            </div>
+          </article>
+          <div class="accordion-container">
+          	<div id="body">
+              <div class="subapartado">
+                <div class="titulo">
+                  <p class="titulo">Expanded</p>
+                </div>
+                <div class="info">
+                  <p class="info">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up</p>
+                </div>
+              </div>
+              <div class="subapartado">
+                <div class="titulo">
+                  <p class="titulo">Hovered</p>
+                </div>
+                <div class="info">
+                  <p class="info">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up</p>
+                </div>
+              </div>
+              <div class="subapartado">
+                <div class="titulo">
+                  <p class="titulo">Inative</p>
+                </div>
+                <div class="info">
+                  <p class="info">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </aside>
+      </div>
+    </section>
+    <!-- ------------------------ Get To Know Us Better ------------------------ -->
+    <section class="contact">
+      <div class="container section">
+      <div class="header-title">
+        <h3 class="title title-black">Get To Know Us Better</h3>
+        <p class="paragram paragram-black">Lorem Ipsum is simply dummy text of the better .</p>
+      </div>
+      <aside class="info-web">
+        <div class="localizacion">
+          <div class="contact-info">
+            <i class="fas fa-map-marker"></i>
+            <p class="paragram paragram-black">623 fifth avenue new york, NY 10002 USE</p>
+          </div>
+          <div class="contact-info">
+            <i class="far fa-envelope"></i>
+            <p class="paragram paragram-black">bcdefg@hijs.dfh</p>
+          </div>
+          <div class="contact-info">
+            <i class="fas fa-mobile-alt"></i>
+            <p class="paragram paragram-black">Phone: +1-000-000-0000</p>
+            <p class="paragram paragram-black">Fax: +1-000-000-0000</p>
+          </div>
+        </div>
+        <div class="formulario">
+          <form class="contact-form">
+            <input type="email" name="email" placeholder="Ingresa tu correo *" title="Email incorrecto"
+              pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+            <input type="text" name="name" placeholder="Ingresa tu nombre *"
+              title="Nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+            <input class="contact-form-subjet"type="text" name="subjet" placeholder="asunto *"
+              title="Nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+            <textarea name="comments" cols="50" rows="10" placeholder="Déjame tus comentarios *" required></textarea>
+            <div class="contact-form-loader text-center none">
+              <img src="assets/img/loader.svg" alt="Enviando...">
+            </div>
+            <input class="btn" type="submit" value="ENVIAR MENSAJE">
+          </form>
+          <article id="gracias" class="modal">
+            <div class="modal-content">
+              <article class="contact-form-response">
+                <h3>
+                  ¡Muchas Gracias!
+                  <br>
+                  Por tus comentarios
+                </h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path d="M12,18c4,0,5-4,5-4H7C7,14,8,18,12,18z" />
+                  <path
+                    d="M12,2C6.486,2,2,6.486,2,12c0,5.514,4.486,10,10,10s10-4.486,10-10C22,6.486,17.514,2,12,2z M12,20c-4.411,0-8-3.589-8-8 s3.589-8,8-8s8,3.589,8,8S16.411,20,12,20z" />
+                  <path
+                    d="M13 12l2 .012C15.012 11.55 15.194 11 16 11s.988.55 1 1h2c0-1.206-.799-3-3-3S13 10.794 13 12zM8 11c.806 0 .988.55 1 1h2c0-1.206-.799-3-3-3s-3 1.794-3 3l2 .012C7.012 11.55 7.194 11 8 11z" />
+                </svg>
+              </article>
+            </div>
+          </article>
+        </div>
+      </aside>
+      <aside class="google-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31619.048035010615!2d-72.19661262474149!3d7.855134000956637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e666ef563cb5763%3A0xf6e21807064f680c!2sCordero%2C%20T%C3%A1chira!5e0!3m2!1ses!2sve!4v1613334158726!5m2!1ses!2sve" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </aside>
+      </div>
+    </section>
+    </main>
+    <!-- ------------------------------- FOOTER -------------------------------- -->
+    <footer class="footer">
+      <div class="container section">
+        <div class="footer-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+          <div class="footer-logo">
+            <div class="logo1">
+              <a href="index.html"><img src="assets/img/logo.png"></a>
+            </div>
+          </div>
+        <div class="footer-rights">
+			  	<p>© 2021 All rights Reserved | Template by<a href="#" target="target_blank">Luis García </a></p>
+        </div>
+			</div>
+    </footer>
+    <!-- ------------------------------- js main ------------------------------- -->
+    <script src="./assets/js/scritp.js"></script>
+    <!-- ------------------------------- jquery ------------------------------- -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+</body>
+
+</html>
